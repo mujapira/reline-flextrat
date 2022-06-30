@@ -449,6 +449,9 @@ body {
         height: auto;
         width: 100%;
     }
+    #line-03 .part2 .wrapper .content .description {
+        padding: 0px;
+    }
 }
 @media (max-width: 850px) {
     #line-03 .empty {
@@ -456,7 +459,6 @@ body {
     }
     #line-03 .part2 .wrapper .content {
         width: 100%;
-        padding: 20px;
     }
     #line-03 .part1 {
         width: 100%;
