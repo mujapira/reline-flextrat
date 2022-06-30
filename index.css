@@ -135,11 +135,11 @@ body {
         background-position: center;
         background-size: cover;
         background-repeat: space;
-        height: 1000px;
+        height: 580px;
         width: 100%;
     }
     .line-01 .part1:hover {
-        background-position: left;
+        background-position: top;
     }
     .line-01 .part2 .wrapper {
         width: 85%;
@@ -150,23 +150,31 @@ body {
         justify-content: space-around;
         margin: 50px 0px;
         text-align: left;
-        gap: 50px;
+        gap: 25px;
     }
     .line-01 .part2 .title {
         width: 100%;
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
+    }
+    .line-01 .part2 .bar {
+        background-color: var(--pl);
+        width: 200px;
+        height: 12px;
     }
     .line-01 .part2 .description {
         width: 100%;
 
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 425px) {
     .line-01 .part2 .wrapper {
         align-items: flex-start;
+    }
+    .line-01 .part1 {
+        height: 352px;
     }
 }
 @media (max-width: 375px) {
@@ -311,9 +319,24 @@ body {
     .line-02 .part2 {
         width: 100%;
         background-image: url(./assets/line02.png);
-        background-size: cover;
         background-position: center;
-        height: 800px;
+        background-size: 130%;
+        height: 550px;
+    }
+    .line-02 .part2:hover {
+        background-position: left;
+    }
+}
+@media (max-width: 650px) {
+    .line-02 .part2 {
+        width: 100%;
+        background-image: url(./assets/line02.png);
+        background-position: center;
+        background-size: 140%;
+        height: 400px;
+    }
+    .line-02 .part2:hover {
+        background-position: left;
     }
 }
 
@@ -335,6 +358,16 @@ body {
     .line-02 .part1 .description li {
         gap: 5px;
     }
+    .line-02 .part2 {
+        width: 100%;
+        background-image: url(./assets/line02.png);
+        background-position: center;
+        background-size: 140%;
+        height: 300px;
+    }
+    .line-02 .part2:hover {
+        background-position: left;
+    }
 }
 @media (max-width: 380px) {
     .line-02 .part1 .title {
@@ -344,6 +377,16 @@ body {
     }
     .line-02 .part1 .description {
         font-size: 15px;
+    }
+    .line-02 .part2 {
+        width: 100%;
+        background-image: url(./assets/line02.png);
+        background-position: center;
+        background-size: 160%;
+        height: 300px;
+    }
+    .line-02 .part2:hover {
+        background-position: left;
     }
 }
 
@@ -445,6 +488,14 @@ body {
     .line-03 .part2 .wrapper .content {
         width: 100%;
         padding: 20px;
+    }
+    .line-03 .part1 {
+        width: 100%;
+        background-image: url(./assets/line03.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: space;
+        height: 500px;
     }
 }
 @media (max-width: 470px) {
@@ -674,7 +725,7 @@ body {
         background-position: center;
         background-size: cover;
         background-repeat: space;
-        height: 1000px;
+        height: 500px;
         width: 100%;
     }
     .line-05 .part1:hover {
@@ -700,6 +751,11 @@ body {
     .line-05 .part2 .description {
         width: 100%;
         font-size: 23px;
+    }
+    .line-05 .part2 .bar {
+        background-color: var(--pl);
+        width: 200px;
+        height: 15px;
     }
 }
 
@@ -1320,11 +1376,11 @@ body {
         background-position: center;
         background-size: cover;
         background-repeat: space;
-        height: 1000px;
+        height: 500px;
         width: 100%;
     }
     .line-10 .part1:hover {
-        background-position: left;
+        background-position: center;
     }
     .line-10 .part2 .wrapper {
         width: 100%;
@@ -1504,11 +1560,11 @@ body {
     .line-11 .part2 {
         width: 100%;
         background-size: cover;
-        background-position: right;
-        height: 800px;
+        background-position: top;
+        height: 550px;
     }
     .line-11 .part2:hover {
-        background-position: center;
+        background-position: top;
     }
     .line-11 .part1 .wrapper .content {
         display: flex;
@@ -1540,8 +1596,12 @@ body {
     .line-11 .part2 {
         width: 100%;
         background-size: cover;
-        background-position: -600px 0px;
-        height: 800px;
+        height: 550px;
+    }
+    .line-11 .part1 .bar {
+        width: 200px;
+        height: 14px;
+        background-color: white;
     }
 }
 @media (max-width: 380px) {
