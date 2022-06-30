@@ -135,29 +135,42 @@
             </div>
             <div class="content">
                 <div class="container">
-                    <img src="assets/mini1.png">
-                    <span>
-                        <b> A Proteína e Lanolina Reline é um complexo repositor ciment (cimento capilar) composta por
-                            mais de nove aminoácidos.</b> A fórmula exclusiva Reline, aprovada pela ANVISA, traz em seu
-                        mix de ativos o poder dos óleos vegetais, conferindo maior ação nutritiva e formando um Complexo
-                        Regenerador capaz de interagir com camadas mais profundas dos fios.
-                    </span>
+                    <div class="box">
+                        <img src="assets/mini1.png">
+                        <span>
+                            <b> A Proteína e Lanolina Reline é um complexo repositor ciment (cimento capilar) composta
+                                por
+                                mais de nove aminoácidos.</b> A fórmula exclusiva Reline, aprovada pela ANVISA, traz em
+                            seu
+                            mix de ativos o poder dos óleos vegetais, conferindo maior ação nutritiva e formando um
+                            Complexo
+                            Regenerador capaz de interagir com camadas mais profundas dos fios.
+                        </span>
+                    </div>
                 </div>
                 <div class="container">
-                    <img src="assets/mini2.png">
-                    <span>
-                        <b>Sua fórmula combina ativos de tratamento com moléculas compatíveis às lâminas capilares,</b>
-                        sendo assim, os carregadores usados em sua composição fazem o trabalho completo. Muito mais do
-                        que sensorial, sua ação é regeneradora e integrativa.
-                    </span>
+                    <div class="box">
+                        <img src="assets/mini2.png">
+                        <span>
+                            <b>Sua fórmula combina ativos de tratamento com moléculas compatíveis às lâminas
+                                capilares,</b>
+                            sendo assim, os carregadores usados em sua composição fazem o trabalho completo. Muito mais
+                            do
+                            que sensorial, sua ação é regeneradora e integrativa.
+                        </span>
+                    </div>
                 </div>
                 <div class="container">
-                    <img src="assets/mini3.png">
-                    <span>
-                        <b>Sua principal atuação é na reposição de massa capilar.</b> Reposição essa que deve ser
-                        realizada de maneira abrangente por todos os tipos de cabelos. Isso porque, de uma maneira ou de
-                        outra, todo cabelo está perdendo sua base proteica por algum motivo, seja ele natural ou causal.
-                    </span>
+                    <div class="box">
+                        <img src="assets/mini3.png">
+                        <span>
+                            <b>Sua principal atuação é na reposição de massa capilar.</b> Reposição essa que deve ser
+                            realizada de maneira abrangente por todos os tipos de cabelos. Isso porque, de uma maneira
+                            ou de
+                            outra, todo cabelo está perdendo sua base proteica por algum motivo, seja ele natural ou
+                            causal.
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,11 +215,18 @@
                 Quais são os sinais de que preciso repor massa capilar (Proteína)?
             </div>
             <div class="content">
+                <div class="progress-bar">
+                    <div id="hover"></div>
+
+                    <div class="box" id="box"></div>
+                    <div class="ball" id="step1"></div>
+                    <div class="ball" id="step2"></div>
+                    <div class="ball" id="step3"></div>
+                </div>
                 <div class="part1">
                     <div class="container1">
 
                         <span>CABELOS POROSOS
-                            <img class="top" src="assets/ball.png" alt="">
                         </span>
                         <ul>
                             <li>A porosidade nos revela que o fio foi profundamente lesionado, algo que vai além do
@@ -223,8 +243,6 @@
                     </div>
                     <div class="container2">
                         <span class="c-title">FALTA DE ELASTICIDADE
-                            <img class="middle" src="assets/ball.png" alt="">
-
                         </span>
                         <span>Para descobrir sobre a elasticidade dos fios você precisa conhecer bem os seus cabelos. Um
                             cabelo que se parte com muita facilidade e, não suporta um teste de “distensão”, que é você
@@ -236,7 +254,6 @@
                         <div class="container1">
                             <span>CABELO EMBARAÇA
                                 COM FACILIDADE
-                                <img class="bottom" src="assets/ball.png" alt="">
                             </span>
                             <ul>
                                 <li>O cabelo que perde proteína tende a ficar mais fino, mais frágil, ele está em seu
@@ -261,16 +278,12 @@
                             </ul>
                         </div>
                     </div>
+                </div>
 
-                </div>
-                <div class="part2">
-                </div>
-                <div class="part2b"></div>
                 <div class="part3">
                     <div class="container1">
                         <span>CABELO EMBARAÇA
                             COM FACILIDADE
-                            <img class="bottom" src="assets/ball.png" alt="">
                         </span>
                         <ul>
                             <li>O cabelo que perde proteína tende a ficar mais fino, mais frágil, ele está em seu estado
@@ -444,5 +457,19 @@
         </div>
     </section>
 </body>
+<script type="text/javascript">
+    const hover = document.getElementById('hover');
+    const box = document.querySelector('.line-06 .wrapper .content .progress-bar .box');
+    const step1 = document.getElementById('step1');
+    const step2 = document.getElementById('step2');
+    const step3 = document.getElementById('step3');
+
+    hover.addEventListener("mouseover", () => {
+        step1.classList.add('hovered');
+        step2.classList.add('hovered');
+        step3.classList.add('hovered');
+        box.classList.add('hovered');
+    });
+</script>
 
 </html>
