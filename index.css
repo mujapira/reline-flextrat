@@ -1131,7 +1131,7 @@ body {
     background-color: var(--p);
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 .line-07 .left {
     width: 33%;
