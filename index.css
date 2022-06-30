@@ -144,9 +144,6 @@ body {
 }
 
 @media (max-width: 425px) {
-    #line-01 .part2 .wrapper {
-        align-items: flex-start;
-    }
     #line-01 .part1 {
         height: 352px;
     }
@@ -429,8 +426,7 @@ body {
 }
 
 #line-03 .part2 .wrapper .empty {
-    height: 100%;
-    width: 20%;
+    display: none;
 }
 
 @media (max-width: 1440px) {
@@ -640,7 +636,7 @@ body {
     justify-content: space-around;
 
     box-sizing: border-box;
-    padding-left: 130px;
+    padding-left: 0px;
 }
 #line-05 .part2 .title {
     font-size: 30px;
@@ -666,8 +662,7 @@ body {
     padding: 0;
 }
 #line-05 .part2 .empty {
-    height: 100%;
-    width: 30%;
+    display: none;
 }
 
 @media (max-width: 1440px) {
@@ -703,10 +698,13 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-around;
         margin: 50px 0px;
         gap: 50px;
+    }
+    #line-05 .empty {
+        display: none;
     }
 }
 @media (max-width: 850px) {
@@ -729,7 +727,7 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-around;
         margin: 0px 0px;
         padding: 50px;
@@ -740,7 +738,7 @@ body {
     #line-05 .part2 .title {
         width: 100%;
         font-size: 30px;
-        text-align: left;
+        text-align: center;
     }
     #line-05 .part2 .description {
         width: 100%;
@@ -755,7 +753,7 @@ body {
 
 @media (max-width: 500px) {
     #line-05 .part2 .wrapper {
-        align-items: flex-start;
+        align-items: center;
     }
     #line-05 .part2 .title {
         font-size: 30px;
@@ -1398,7 +1396,6 @@ body {
     gap: 30px;
     text-align: center;
 
-
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -1443,7 +1440,7 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-around;
         margin: 50px 0px;
         gap: 50px;
@@ -1468,17 +1465,17 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: left;
+        align-items: center;
         justify-content: space-around;
         margin: 0px 0px;
         padding: 50px;
-        text-align: left;
+
         gap: 50px;
     }
     #line-10 .part2 .title {
         width: 100%;
         font-size: 30px;
-        text-align: left;
+        text-align: center;
     }
     #line-10 .part2 .description {
         width: 100%;
@@ -1493,7 +1490,7 @@ body {
 
 @media (max-width: 500px) {
     #line-10 .part2 .wrapper {
-        align-items: flex-start;
+        align-items: center;
     }
     #line-10 .part2 .title {
         font-size: 30px;
@@ -1538,7 +1535,7 @@ body {
     width: 50%;
     display: flex;
     flex-direction: row;
-    align-items: right;
+    align-items: center;
     justify-content: center;
     background-color: var(--ss);
     height: 100%;
@@ -1568,7 +1565,6 @@ body {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
-
 }
 #line-11 .part1 .bar {
     width: 200px;
@@ -1623,7 +1619,7 @@ body {
     #line-11 .part1 {
         width: 100%;
         flex-direction: row;
-        align-items: right;
+        align-items: center;
         justify-content: center;
         height: auto;
     }
@@ -1658,7 +1654,7 @@ body {
     #line-11 .part1 .wrapper .content {
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
         gap: 30px;
         width: 85%;
     }
