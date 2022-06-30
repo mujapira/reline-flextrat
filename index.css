@@ -65,13 +65,14 @@ body {
     height: 90%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
 }
 #line-01 .part2 .title {
     font-size: 30px;
     font-weight: bolder;
     color: var(--pl);
+    text-align: center;
 }
 #line-01 .part2 .bar {
     background-color: var(--pl);
@@ -198,6 +199,7 @@ body {
 #line-02 .part1 .wrapper .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     width: 90%;
 }
@@ -206,6 +208,7 @@ body {
     color: white;
     font-size: 30px;
     font-weight: bolder;
+    text-align: center;
 }
 #line-02 .part1 .bar {
     width: 200px;
@@ -403,7 +406,8 @@ body {
 #line-03 .part2 .wrapper .content .description {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     justify-content: center;
 
     gap: 30px;
@@ -559,7 +563,7 @@ body {
         width: 100%;
     }
     #line-04 .wrapper .title {
-        width: 90%;
+        width: 70%;
     }
     #line-04 .wrapper .content .container {
         display: flex;
@@ -632,7 +636,7 @@ body {
     height: 90%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
 
     box-sizing: border-box;
@@ -642,6 +646,7 @@ body {
     font-size: 30px;
     font-weight: bolder;
     color: var(--pl);
+    text-align: center;
 }
 #line-05 .part2 .bar {
     background-color: var(--pl);
@@ -652,7 +657,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
+    text-align: center;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -1367,10 +1372,10 @@ body {
 }
 #line-10 .part2 .wrapper {
     width: 85%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
 
     box-sizing: border-box;
@@ -1380,6 +1385,7 @@ body {
     font-size: 30px;
     font-weight: bolder;
     color: white;
+    text-align: center;
 }
 #line-10 .part2 .bar {
     background-color: white;
@@ -1390,6 +1396,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align: center;
+
 
     color: white;
     font-size: 16px;
@@ -1542,15 +1550,15 @@ body {
     display: flex;
     flex-direction: column;
 
-    align-items: end;
+    align-items: center;
     justify-content: space-around;
     text-align: right;
-    margin-right: 100px;
+    margin-right: 0px;
 }
 #line-11 .part1 .wrapper .content {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     gap: 30px;
     width: 64%;
 }
@@ -1559,6 +1567,8 @@ body {
     color: white;
     font-size: 30px;
     font-weight: bolder;
+    text-align: center;
+
 }
 #line-11 .part1 .bar {
     width: 200px;
@@ -1569,6 +1579,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
 
     list-style: none;
     margin: 0;
